@@ -6,4 +6,7 @@ app.get('/', (req, res) => {
 app.get('/contact', (req, res) => {
   res.send('page contact!');
 });
+app.get('/page', (req, res) => {
+  res.send('page page');
+});
 app.listen(3000, () => console.log('App running on port 3000'));
